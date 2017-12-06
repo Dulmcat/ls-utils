@@ -16,12 +16,11 @@ const config = {
     module: {
         rules: [{
             test: /\.js$/,
-            loader: "bable-loader"
+            loader: "babel-loader"
         }]
     },
     plugins: [
         new webpack.optimize.UglifyJsPlugin()
     ]
 }
-
-moudle.exports = config;
+module.exports = config;
