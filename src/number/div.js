@@ -18,3 +18,5 @@ function div(a, b) {
     }
     return c = Number(a.toString().replace(".", "")), d = Number(b.toString().replace(".", "")), mul(c / d, Math.pow(10, f - e));
 }
+
+module.exports = div;

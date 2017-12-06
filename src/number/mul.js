@@ -19,3 +19,5 @@ function mul(a, b) {
     }
     return Number(d.replace(".", "")) * Number(e.replace(".", "")) / Math.pow(10, c);
 }
+
+module.exports = mul;

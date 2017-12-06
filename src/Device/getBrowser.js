@@ -23,3 +23,5 @@ function getBrowser(){
     if(sys.safari) return ('Safari: ' + sys.safari);
     return 'UNKNOWN BROWSER'
 }
+
+module.exports = getBrowser;

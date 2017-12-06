@@ -19,3 +19,5 @@ function sub(a, b) {
     }
     return e = Math.pow(10, Math.max(c, d)), (mul(a, e) - mul(b, e)) / e;
 }
+
+module.exports = sub;

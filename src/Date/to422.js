@@ -16,3 +16,6 @@ function to422(date){
     }
     return (year + '-' + month + '-' + day);
 }
+
+
+module.exports = to422;
