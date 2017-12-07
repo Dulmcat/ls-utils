@@ -4,18 +4,12 @@
  * @param  {Date} date
  * @return {string} 20XX-XX-XX
  */
+const add0 = require('../number/add0');
 function to422(date){
     var year = date.getFullYear();
     var month = date.getMonth() + 1;
     var day = date.getDate();
-    if(month < 10) {
-        month = '0' + month;
-    }
-    if(day < 10) {
-        day = '0' + day;
-    }
-    return (year + '-' + month + '-' + day);
+    return (year + '-' + add0(month) + '-' + add0(day));
 }
-
 
 module.exports = to422;

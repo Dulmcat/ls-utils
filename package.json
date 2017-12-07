@@ -1,5 +1,5 @@
 {
-  "name": "ls-utils",
+  "name": "lsutils",
   "version": "1.0.0",
   "description": "my own utils lib",
   "main": "index.js",
